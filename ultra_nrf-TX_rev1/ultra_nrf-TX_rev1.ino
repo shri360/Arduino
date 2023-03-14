@@ -1,5 +1,4 @@
 #include <Wire.h>
-// ----------- Program Developed by R.GIRISH / Homemade-circuits .com ----------- //
 #include <RF24.h>
 #include<SPI.h>
 RF24 radio(9, 10);
@@ -89,4 +88,3 @@ if (actual_distance < 0.08)
 radio.write(&text_5, sizeof(text_5));
 }
 }
-// ----------- Program Developed by R.GIRISH / Homemade-circuits .com ----------- //
